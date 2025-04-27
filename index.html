@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>three.js app</title>
+		<style>
+			@import "https://cdn.jsdelivr.net/npm/bulma@1.0.2/css/bulma.min.css";
+			body{margin: 0px 0px 0px 0px;
+				
+				height: 1920px;
+				width: 1080px;
+				z-index: 3;
+				position: absolute;
+			
+				
+			}
+			#curtain {
+				margin: 0px 0px 0px 0px;
+				width: 1080px;
+				height: 15%;
+				display: block;
+				z-index: 4;
+				position: absolute;
+			}	
+		</style>
+	</head>
+	<body id=a1>
+		
+			<script type="module" src="/main.js"></script>
+		
+	<div id="curtain" class="card" >
+		<div class="card-content">
+			<div class="media">
+				<div class="media-content">
+        	<p class="title is-4">Metronome 0.0.2</p>
+        	<p class="subtitle is-6">@afantasia.dev</p>
+      	</div>
+      </div>
+    </div>
+    <div class="content">
+     	<input id="BPM" class="input is-success is-transparent" type="number" value="131" placeholder="BPM" />
+		<button class="button" onClick="window.location.reload();" >Reload</button>
+    </div>
+  </div>
+</div>
+
+
+		  
+	</body>
+</html>
